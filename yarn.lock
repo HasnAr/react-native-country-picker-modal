@@ -3642,9 +3642,9 @@ lodash.toarray@^4.4.0:
   version "4.4.0"
   resolved "https://registry.yarnpkg.com/lodash.toarray/-/lodash.toarray-4.4.0.tgz#24c4bfcd6b2fba38bfd0594db1179d8e9b656561"
 
-lodash@4.12.0:
-  version "4.12.0"
-  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.12.0.tgz#2bd6dc46a040f59e686c972ed21d93dc59053258"
+lodash@4.17.11:
+  version "4.17.11"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.11.tgz#b39ea6229ef607ecd89e2c8df12536891cac9b8d"
 
 lodash@^3.5.0:
   version "3.10.1"
@@ -5829,9 +5829,9 @@ worker-farm@^1.3.1:
   dependencies:
     errno "~0.1.7"
 
-world-countries@1.8.0:
-  version "1.8.0"
-  resolved "https://registry.yarnpkg.com/world-countries/-/world-countries-1.8.0.tgz#17f48e7e8470ac5a2136ad6938dfc656fc2bcb95"
+"world-countries@https://github.com/MrSltun/countries.git#arabicTranslation":
+  version "1.8.1"
+  resolved "https://github.com/MrSltun/countries.git#f1a79e25afe579c68f14f48d57e53c4275e9e231"
 
 wrap-ansi@^2.0.0:
   version "2.1.0"

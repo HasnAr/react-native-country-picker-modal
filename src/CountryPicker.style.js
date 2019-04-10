@@ -1,5 +1,7 @@
-import { StyleSheet, PixelRatio } from 'react-native'
+import { StyleSheet, PixelRatio, Dimensions } from 'react-native'
 import { getHeightPercent } from './ratio'
+
+const { width, height } = Dimensions.get('window');
 
 export default StyleSheet.create({
   container: {},
@@ -19,10 +21,10 @@ export default StyleSheet.create({
   },
   input: {
     height: 48,
-    width: '70%'
+    width: width * 0.7
   },
   inputOnly: {
-    marginLeft: '15%'
+    marginLeft: width * 0.15
   },
   touchFlag: {
     alignItems: 'center',
@@ -56,12 +58,12 @@ export default StyleSheet.create({
   itemCountryFlag: {
     justifyContent: 'center',
     alignItems: 'center',
-    height: '7%',
-    width: '15%'
+    height: width * 0.7,
+    width: width * 0.15
   },
   itemCountryName: {
     justifyContent: 'center',
-    width: '70%',
+    width: width*0.7,
     borderBottomWidth: 2 / PixelRatio.get(),
     borderBottomColor: '#ccc',
     height: 20
@@ -90,7 +92,7 @@ export default StyleSheet.create({
   },
   closeButton: {
     height: 48,
-    width: '15%',
+    width: width*0.15,
     alignItems: 'center',
     justifyContent: 'center'
   },
