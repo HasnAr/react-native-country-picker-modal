@@ -15,7 +15,8 @@ import {
   TextInput,
   ListView,
   ScrollView,
-  Platform
+  Platform,
+  I18nManager
 } from 'react-native';
 
 import Fuse from 'fuse.js';
@@ -393,10 +394,9 @@ export default class CountryPicker extends Component {
               style={[
                 {
                   marginTop: isEmojiable ? 0 : 5,
-                  flexDirection: 'row',
+                  flexDirection: I18nManager.isRTL ? 'row-reverse' : 'row',
                   alignItems: 'center',
-                  justifyContent: 'center',
-                  marginRight: -16
+                  justifyContent: 'center'
                 }
               ]}
             >
